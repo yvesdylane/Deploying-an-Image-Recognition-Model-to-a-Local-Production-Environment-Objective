@@ -54,9 +54,9 @@ def process():
             response = {"status": "error", "messages": messages}
             return _respond(request, result=None, messages=messages, response=response)
 
-        # Log where the model is being loaded from
+        # Log where the model is being loaded from (hope you know)
         logging.info(f"Loading model from: {model_path}")
-        print(f"Loading model from: {model_path}")  # Console message
+        print(f"Loading model from: {model_path}")  # Console message (just in case you don't know)
 
         # Log file upload
         uploaded_file = request.files.get('Image')

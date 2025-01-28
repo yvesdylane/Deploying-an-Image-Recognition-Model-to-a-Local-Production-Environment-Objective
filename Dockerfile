@@ -1,10 +1,13 @@
 # Use a lightweight Python base image
 FROM python:3.12-slim
 
-# Set the working directory in the container
+# Install git cause without this it ein gonna work
+RUN apt-get update && apt-get install -y git
+
+# Set the working directory in the container(Normally you should know that is the directory of the container but we never know)
 WORKDIR /app
 
-# Install system dependencies and clean up to minimize image size
+# Install system dependencies and clean up to minimize image size(all it because of of liberies like hdbscan)
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         gcc \
@@ -22,10 +25,10 @@ RUN apt-get update && \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
+# Now understand this by yourself
 COPY . .
 
-# Expose the application port
+# Expose the application port to your  own preference
 EXPOSE 8080
 
 # Set the command to run the application
