@@ -1,0 +1,70 @@
+2025-01-28 01:21:58,819 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.57:8080
+2025-01-28 01:21:58,820 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 01:21:58,839 - INFO -  * Restarting with stat
+2025-01-28 01:22:00,448 - WARNING -  * Debugger is active!
+2025-01-28 01:22:01,859 - INFO -  * Debugger PIN: 135-329-463
+2025-01-28 01:22:54,402 - INFO - Incoming request: GET http://192.168.43.57:8080/
+2025-01-28 01:22:54,466 - INFO - Outgoing response: 200 OK
+2025-01-28 01:22:54,470 - INFO - 192.168.43.57 - - [28/Jan/2025 01:22:54] "GET / HTTP/1.1" 200 -
+2025-01-28 01:22:54,552 - INFO - Incoming request: GET http://192.168.43.57:8080/
+2025-01-28 01:22:54,554 - INFO - Outgoing response: 200 OK
+2025-01-28 01:22:54,554 - INFO - 192.168.43.57 - - [28/Jan/2025 01:22:54] "GET / HTTP/1.1" 200 -
+2025-01-28 01:22:56,966 - INFO - Incoming request: GET http://192.168.43.57:8080/favicon.ico
+2025-01-28 01:22:56,967 - INFO - Outgoing response: 404 NOT FOUND
+2025-01-28 01:22:56,967 - INFO - 192.168.43.57 - - [28/Jan/2025 01:22:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-28 01:23:11,924 - INFO - Incoming request: POST http://192.168.43.57:8080/predict
+2025-01-28 01:23:11,925 - ERROR - Model file not found!
+2025-01-28 01:23:11,925 - INFO - Outgoing response: 200 OK
+2025-01-28 01:23:11,926 - INFO - 192.168.43.57 - - [28/Jan/2025 01:23:11] "POST /predict HTTP/1.1" 200 -
+2025-01-28 01:23:11,956 - INFO - Incoming request: POST http://192.168.43.57:8080/predict
+2025-01-28 01:23:11,957 - ERROR - Model file not found!
+2025-01-28 01:23:11,957 - INFO - Outgoing response: 200 OK
+2025-01-28 01:23:11,957 - INFO - 192.168.43.57 - - [28/Jan/2025 01:23:11] "POST /predict HTTP/1.1" 200 -
+2025-01-28 01:27:03,979 - INFO -  * Detected change in '/home/yveane/Documents/school/ai/customer/lab6/main.py', reloading
+2025-01-28 01:27:04,861 - INFO -  * Restarting with stat
+2025-01-28 01:27:07,215 - WARNING -  * Debugger is active!
+2025-01-28 01:27:07,218 - INFO -  * Debugger PIN: 135-329-463
+2025-01-28 01:27:53,354 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.57:8080
+2025-01-28 01:27:53,354 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-28 01:27:53,355 - INFO -  * Restarting with stat
+2025-01-28 01:27:54,921 - WARNING -  * Debugger is active!
+2025-01-28 01:27:54,924 - INFO -  * Debugger PIN: 135-329-463
+2025-01-28 01:27:58,311 - INFO - Incoming request: GET http://127.0.0.1:8080/
+2025-01-28 01:27:58,327 - INFO - Outgoing response: 200 OK
+2025-01-28 01:27:58,328 - INFO - 127.0.0.1 - - [28/Jan/2025 01:27:58] "GET / HTTP/1.1" 200 -
+2025-01-28 01:28:00,428 - INFO - Incoming request: GET http://127.0.0.1:8080/favicon.ico
+2025-01-28 01:28:00,433 - INFO - Outgoing response: 404 NOT FOUND
+2025-01-28 01:28:00,433 - INFO - 127.0.0.1 - - [28/Jan/2025 01:28:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-28 01:28:07,670 - INFO - Incoming request: POST http://127.0.0.1:8080/predict
+2025-01-28 01:28:07,671 - ERROR - Model file not found!
+2025-01-28 01:28:07,671 - INFO - Outgoing response: 200 OK
+2025-01-28 01:28:07,671 - INFO - 127.0.0.1 - - [28/Jan/2025 01:28:07] "POST /predict HTTP/1.1" 200 -
+2025-01-28 01:30:17,735 - INFO -  * Detected change in '/home/yveane/Documents/school/ai/customer/lab6/main.py', reloading
+2025-01-28 01:30:18,103 - INFO -  * Restarting with stat
+2025-01-28 01:30:19,835 - WARNING -  * Debugger is active!
+2025-01-28 01:30:19,838 - INFO -  * Debugger PIN: 135-329-463
+2025-01-28 01:30:25,585 - INFO - Incoming request: POST http://127.0.0.1:8080/predict
+2025-01-28 01:30:25,586 - ERROR - Model file not found at: models/euclidean/model.joblib
+2025-01-28 01:30:25,593 - INFO - Outgoing response: 200 OK
+2025-01-28 01:30:25,593 - INFO - 127.0.0.1 - - [28/Jan/2025 01:30:25] "POST /predict HTTP/1.1" 200 -
+2025-01-28 01:30:25,881 - INFO - Incoming request: POST http://127.0.0.1:8080/predict
+2025-01-28 01:30:25,881 - ERROR - Model file not found at: models/euclidean/model.joblib
+2025-01-28 01:30:25,882 - INFO - Outgoing response: 200 OK
+2025-01-28 01:30:25,882 - INFO - 127.0.0.1 - - [28/Jan/2025 01:30:25] "POST /predict HTTP/1.1" 200 -
+2025-01-28 01:31:30,747 - INFO -  * Detected change in '/home/yveane/Documents/school/ai/customer/lab6/main.py', reloading
+2025-01-28 01:31:31,132 - INFO -  * Restarting with stat
+2025-01-28 01:31:33,415 - WARNING -  * Debugger is active!
+2025-01-28 01:31:33,418 - INFO -  * Debugger PIN: 135-329-463
+2025-01-28 01:32:38,499 - INFO - Incoming request: POST http://127.0.0.1:8080/predict
+2025-01-28 01:32:38,499 - INFO - Loading model from: models/v1.0/model.joblib
+2025-01-28 01:32:38,647 - INFO - Model loaded successfully.
+2025-01-28 01:32:38,783 - INFO - Predicted Cluster: 0
+2025-01-28 01:32:38,958 - INFO - Representative index: 11601
+2025-01-28 01:32:38,966 - INFO - Outgoing response: 200 OK
+2025-01-28 01:32:38,966 - INFO - 127.0.0.1 - - [28/Jan/2025 01:32:38] "POST /predict HTTP/1.1" 200 -
