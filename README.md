@@ -54,8 +54,6 @@ And BOOM 💥! You'll get the AI's prediction! 🧠📸
 
 For those who prefer a graphical interface, we’ve got you covered! 🎉 The web interface allows you to upload images and see predictions in real-time. Here’s how it looks:
 
-Web Interface Screenshot (Replace this with a screenshot of your web interface)
-
 To use the web interface:
 
 - Open your browser and go to http://localhost:8080.
