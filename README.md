@@ -116,7 +116,7 @@ Let’s build something awesome together! 🚀
 
 Here’s a sneak peek at the web interface! 🖼️
 
-(i will place my image here)
+![Take a look](./Screenshot%20from%202025-01-26%2005-04-20.png)
 
 The interface includes:
 
