@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 
 # Environment variables for configuration
-GIT_REPO_URL = os.getenv("GIT_REPO_URL", "https://github.com/yvesdylane/Deploying-an-Image-Recognition-Model-to-a-Local-Production-Environment-Objective")
+GIT_REPO_URL = os.getenv("GIT_REPO_URL", "https://github.com/yvesdylane/Deploying-an-Image-Recognition-Model-to-a-Local-Production-Environment-Objective/tree/main/models")
 MODEL_DIR = os.getenv("MODEL_DIR", "models")
 
 app = Flask(__name__)
