@@ -1,6 +1,8 @@
 # 🎯 Image Recognition Model Deployment 🚀
 
-Welcome to **Image Recognition Model Deployment** – where AI meets production in a seamless, scalable way! 🤖⚡ This project takes you through the journey of deploying an image recognition model into a local production environment, complete with a REST API, Docker containerization, and a fun web interface! 🌟
+Welcome to **Image Recognition Model Deployment** – where AI meets production in a seamless, scalable way! 🤖⚡ 
+
+This project takes you through the journey of deploying an image recognition model into a local production environment, complete with a REST API, Docker containerization, and a fun web interface! 🌟
 
 ---
 
@@ -67,10 +69,15 @@ To use the web interface:
 ## 📌 Features
 
 ✅ **Fast & Scalable** – Thanks to Flask & Docker! 🏗️
+
 ✅ **Easy Deployment** – Deploy locally or in the cloud! ☁️
+
 ✅ **Logging & Monitoring** – Track performance & errors! 📈
+
 ✅ **Model Versioning** – Keep things updated smoothly! 🔄
+
 ✅ **Web Interface** – A fun and interactive way to test the model! 🖼️
+
 ✅ **Pre-trained Model** – No need to train from scratch! 🎯
 
 ## 🚀 Future Improvements
